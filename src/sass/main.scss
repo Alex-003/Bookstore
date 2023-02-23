@@ -1,0 +1,83 @@
+// variables
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$background-color: #f8f9fa;
+
+// base styles
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+// header styles
+header {
+  background-color: $primary-color;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+// navigation styles
+nav {
+  background-color: $secondary-color;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+// main content styles
+main {
+  background-color: $background-color;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.book {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.book img {
+  width: 100%;
+  height: auto;
+}
+
+.book h2 {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.book p {
+  margin-top: 0;

@@ -1,0 +1,19 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "project using Node, Express, SQL, SASS and Typecript",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.4"
+  },
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "typescript": "^4.9.5"
+  }
+}
